@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>NEXUS - Videojuegos con Identidad</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #222;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+        }
+        h2 {
+            background-color: #e0e0e0;
+            padding: 10px;
+            border-radius: 8px;
+            color: #222;
+        }
+        .juegos {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+        }
+        .juego {
+            text-align: center;
+        }
+        .juego img {
+            width: 300px;
+            border: 4px solid #ccc;
+            border-radius: 10px;
+        }
+        .descripcion {
+            margin-top: 10px;
+            font-size: 15px;
+            color: #444;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>NEXUS</h1>
+</header>
+
+<nav>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#mision">Misión y Visión</a>
+    <a href="#historia">Historia</a>
+    <a href="#juegos">Videojuegos</a>
+</nav>
+
+<section id="nosotros">
+    <h2>¿Quiénes Somos?</h2>
+    <p>Nexus es una empresa guatemalteca dedicada al desarrollo de videojuegos con identidad cultural. Fundada en 2020 por jóvenes apasionados por la tecnología y la creatividad, nuestro objetivo es ofrecer experiencias únicas e innovadoras que conecten con el corazón de los jugadores.</p>
+</section>
+
+<section id="mision">
+    <h2>Misión y Visión</h2>
+    <p><strong>Misión:</strong> Crear videojuegos innovadores y accesibles que reflejen la cultura guatemalteca y fomenten el talento tecnológico.</p>
+    <p><strong>Visión:</strong> Ser una empresa reconocida en Centroamérica por su creatividad, calidad y compromiso con la identidad cultural en el mundo gamer.</p>
+</section>
+
+<section id="historia">
+    <h2>Nuestra Historia</h2>
+    <p>Desde su fundación en Ciudad de Guatemala, Nexus ha trabajado por integrar cultura, tecnología y diversión. En solo cinco años, ha crecido desde proyectos universitarios hasta títulos reconocidos a nivel regional, siempre con una meta clara: representar a Guatemala en el mundo del gaming.</p>
+</section>
+
+<section id="juegos" class="juegos">
+    <h2>Videojuegos de Nexus</h2>
+
+    <div class="juego">
+        <img src="29b775c4-b6ff-4301-8edf-962242ea840d.jpg" alt="Tecún Umán">
+        <div class="descripcion">Juega como Tecún Umán en un juego de acción en tercera persona donde defiendes tu territorio enfrentando invasores históricos.</div>
+    </div>
+
+    <div class="juego">
+        <img src="c3573ffc-c0e3-4285-9c57-db8dea0d8916.jpg" alt="La Ruta Quetzal">
+        <div class="descripcion">Controlas un quetzal que recorre Guatemala desde Petén hasta Jutiapa. Visita volcanes, lagos, mercados y ruinas, evitando peligros naturales y humanos.</div>
+    </div>
+
+    <div class="juego">
+        <img src="ea33512d-716b-4fe6-a75b-a2ccb2d9719f.jpg" alt="Constructor de Tikal">
+        <div class="descripcion">Eres el nuevo gobernante de Tikal y debes construir, expandir y proteger tu civilización en medio de conflictos y decisiones estratégicas.</div>
+    </div>
+
+    <div class="juego
